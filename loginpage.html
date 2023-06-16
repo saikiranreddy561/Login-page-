@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="loginpagestyle.css">
+    <script src="login.js"></script>
+    
+</head>
+<body>
+    <form  class="abc" action="signup.php" method="post">
+            <div class="form">
+                <h1>Signup</h1>
+                <form>
+                    <div>
+                        <label class="ab1"><b>Name:</b></label>
+                        <input class="ab2" id="name" type="text" name="name" required/><br>
+                    </div>
+                    <div class="xy">
+                        <label class="ab3"><b>Email:</b></label>
+                        <input class="ab4" id="email" type="text" name="email" required><br>
+                    </div>
+                    <div class="xy1">
+                        <label class="ab5"><b>Password:</b></label>
+                        <input class="ab6" id="password" type="password" name="password" required><br>
+                        <span class="c"><input id="cc" type="checkbox" onclick="show()" ><b>Show Password</b></span>
+                    </div>
+                    
+                    <span>
+                        <input class="sub" type="submit" value="Signup">
+                    </span>
+                    <div class="hi1">
+                        Already Registered?
+                        <a class="hii" href="signinpage.html" >Signin</a>
+                    </div>
+                </form>
+            </div>
+    </form>
+</body>
+</html>

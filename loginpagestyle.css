@@ -1,0 +1,105 @@
+body{
+    background-image: url("https://t4.ftcdn.net/jpg/01/19/11/55/360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.webp");
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.abc{
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 20px 30px 120px ;
+    background: rgb(255, 255, 255);
+    opacity: 0.8;
+    
+}
+.form h1{
+    text-align: center;
+}
+.xy{
+    position: relative;
+    top: 8px;
+}
+.xy1{
+    position: relative;
+    top: 15px;
+}
+.ab1{
+    font-size:x-large;
+    position: relative;
+    left: 10px;
+}
+.ab2{
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 25px;
+    position: relative;
+    border-radius: 10px;
+    border: 1.5px solid black ;
+    left: 76px;
+}
+.ab3{
+    font-size:x-large;
+    position: relative;
+    left: 10px;
+}
+.ab4{
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 25px;
+    position: relative;
+    border-radius: 10px;
+    border: 1.5px solid black ;
+    left: 82px;
+}
+.ab5{
+    font-size:x-large;
+    position: relative;
+    left: 10px;
+}
+.ab6{
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 25px;
+    position: relative;
+    border: 1.5px solid black ;
+    border-radius: 10px;
+    left: 38px;
+}
+.sub{
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 100px;
+    height: 40px;
+    top: 50px;
+    left: 165px;
+}
+.sub:hover{
+    background-color: rgb(132, 170, 239);
+    color: white;
+}
+.hi1{
+    position: relative;
+    top: 70px;
+    left: 130px;
+}
+.hii{
+    color:rgb(102, 150, 240) ;
+}
+.hii:hover{
+    color: red;
+}
+.c1{
+    position: inherit;
+    text-align: center;
+    left:100px;
+    top:400px;
+    color: brown;
+}
